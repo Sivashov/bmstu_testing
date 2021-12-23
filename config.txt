@@ -1,0 +1,37 @@
+{
+	"database": "PostgreSQL",
+	"data": [
+		{
+		"postgres": [
+			"dbname": "BankStructure",
+			"user": "postgres",
+			"password": "forest123ry",
+			"host": "localhost",
+			"port": 5432
+		]},
+		{
+		"manager": [
+			"dbname": "BankStructure",
+			"user": "manager",
+			"password": "1234",
+			"host": "localhost",
+			"port": 5432
+		]},
+		{
+		"administrator": [
+			"dbname": "BankStructure",
+			"user": "administrator",
+			"password": "1234",
+			"host": "localhost",
+			"port": 5432
+		]},
+		{
+		"director": [
+			"dbname": "BankStructure",
+			"user": "director",
+			"password": "1234",
+			"host": "localhost",
+			"port": 5432
+		]}
+	] 
+}
