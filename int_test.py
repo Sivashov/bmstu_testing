@@ -5,6 +5,7 @@ from unittest.mock import patch
 from controller import *
 import view
 import cProfile
+import test as unittests
 
 
 class TestPlotManagerPlan(unittest.TestCase):
@@ -311,6 +312,8 @@ class BaseTestE2eManager(unittest.TestCase):
 
 
 def main():
+    unittests.main()
+    
     t = BaseIntegrationTestClass()
     t.do_tests()
 
