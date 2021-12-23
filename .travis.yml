@@ -2,3 +2,5 @@ language: python
 script: python int_test.py
 install:
   - pip install -r requirements.txt
+env:
+  - PEEWEE_VERSION=3.14.8
